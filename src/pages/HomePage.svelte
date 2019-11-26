@@ -46,11 +46,9 @@
         ].map(a => [a[0], a[2], a[1]]));
     }, 0);
 
-</script>
+    document.title = 'Nirmal Lankathilaka';
 
-<link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" type="text/css" href="simple-grid.css">
-<link rel="stylesheet" type="text/css" href="home.css">
+</script>
         
 <header class="[ section top-1 ]">
     <h1 class="[ title h1 bold ][ inline-block right-1 vertical-middle ]">Nirmal Lankathilaka</h1>
