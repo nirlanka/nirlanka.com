@@ -18,8 +18,10 @@
 {#if articles}
     {#each articles as article}
     <Link to={`/blog/${article.id}`}>
-        <div>{article.title}</div>
-        <div>{article.description}</div>
+        <div>
+            <h2>{article.title}</h2>
+            <p>{article.description}</p>
+        </div>
     </Link>
     {/each}
 {/if}
